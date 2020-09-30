@@ -10,21 +10,21 @@ const Paragraph = styled('p', {
   }
 });
 
-Paragraph.compoundVariant({ var1: 'true', var2: 'false' }, { fontWeight: 'bold' })
+Paragraph.compoundVariant({ var1: true, var2: false }, { fontWeight: 'bold' })
 
-Paragraph.compoundVariant({ var1: 'false', var2: 'true' }, { textDecoration: 'underline' })
+Paragraph.compoundVariant({ var1: false, var2: true }, { textDecoration: 'underline' })
 
 Paragraph.defaultProps = {
-  var1: 'false',
-  var2: 'false',
+  var1: false,
+  var2: false,
 };
 
 export function App() {
   return (
     <div>
       <Paragraph>Test</Paragraph>
-      <Paragraph var1="true">Test</Paragraph>
-      <Paragraph var2="true">Test</Paragraph>
+      <Paragraph var1>Test</Paragraph>
+      <Paragraph var2>Test</Paragraph>
     </div>
   )
 }
