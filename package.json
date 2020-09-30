@@ -1,0 +1,7 @@
+{
+  "name": "poc-stitches-compound-boolean",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dieter Luypaert <dieterluypaert@gmail.com>",
+  "license": "MIT"
+}
