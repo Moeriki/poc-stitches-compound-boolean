@@ -1,7 +1,15 @@
 import React from 'react';
 
+import  { styled } from './stitches.config';
+
+const Paragraph = styled('p', {
+  color: 'red',
+});
+
 export function App() {
   return (
-    <div>Hello World!</div>
+    <div>
+      <Paragraph>Test</Paragraph>
+    </div>
   )
 }
